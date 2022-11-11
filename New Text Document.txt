@@ -1,0 +1,27 @@
+import random
+def swg(comp,mine)
+    if (comp==mine)
+        return None
+    if(comp==sand mine==g)
+        return False
+    elif(comp==gand mine==w)
+        return False  
+    elif(comp==wand mine==s)
+        return False
+    else
+        return True
+choice=(s,w,g)
+comp=random.randint(0,2)
+comp=choice[comp]
+mine=input(enter ur choice s w or g)
+
+win=swg(comp,mine)
+print(fyou choose {mine} and computer choose {comp})
+if win
+    print(you won)
+elif win is None
+    print(match drawn)
+
+else
+   
+    print(you loose)
